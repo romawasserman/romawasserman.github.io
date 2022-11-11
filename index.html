@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+
+  
+  <title>calc</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poor+Story&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="src/css/style.css">
+</head>
+<body>
+    <div class="calc">
+        <div class="calc__start-wrapper">
+            <input type="text" class="calc__start-input">
+            <div class="calc__start-text">Начальный банк</div>
+        </div>
+        <div class="calc__step-wrapper">
+            <div class="calc__step-text">Шаг x2 </div>
+        </div>
+        <div class="calc__bet-wrapper">
+            <input type="text" class="calc__bet-input">
+            <div class="calc__bet-text">Начальная ставка</div>
+        </div>
+        <div class="values__wrapper">
+            <div class="money__wrapper">
+                Сейчас у тебя : 
+                <div class="calc__money"></div>
+            </div>
+            <div class="steps__wrapper">
+                Кол-во ставок :
+                <div class="steps"></div>
+            </div>
+            <div class="bet__wrapper">
+                Дефолт ставка : 
+                <div class="bet"></div>
+            </div>
+        </div>
+        <div class="buttons">
+            <div class="test">Start</div>
+            <div class="stop">Stop</div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
